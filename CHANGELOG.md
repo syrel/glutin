@@ -1,10 +1,23 @@
 # Unreleased
 
-# Version 0.22.0 (2020-1-07)
+# Version 0.24.0 (2020-03-11)
+
+- Updated winit dependency to 0.22.0. See [winit's CHANGELOG](https://github.com/rust-windowing/winit/blob/master/CHANGELOG.md#0220-2020-03-09) for more info.
+
+# Version 0.23.0 (2020-02-06)
+
+- Updated winit dependency to 0.21.0. See [winit's CHANGELOG](https://github.com/rust-windowing/winit/blob/master/CHANGELOG.md#0210-2020-02-04) for more info.
+- Removed broken CI for the `armv7-apple-ios` target.
+
+# Version 0.22.1 (2020-01-29)
+
+- Fixed incorrectly documented default value for `ContextBuilder::with_srgb`
+
+# Version 0.22.0 (2020-01-07)
 
 - Updated winit dependency to 0.20.0. See [winit's CHANGELOG](https://github.com/rust-windowing/winit/blob/master/CHANGELOG.md#0200-2020-01-05) for more info.
 
-# Version 0.22.0-alpha6 (2020-1-05)
+# Version 0.22.0-alpha6 (2020-01-05)
 
 - Fixed dependencies so wrong winit version is not used.
 - On X11, got rid of mistaken `XRenderFindVisualFormat` call so that glutin doesn't ignore configs that lack a `XRenderPictFormat`.
